@@ -4,9 +4,9 @@ JS performance 性能监控器，它全面的抓取了页面加载前，加载�
 
 ### 使用 Use  
 ### 1. npm，引用后会在window下写入__pm__对象，调用如下  
-npm i @pm  
-import '@pm';  
-__pm__.init({  
+npm i js-performance-monitor  
+import 'js-performance-monitor'   
+`__pm__`.init({  
     log: true, // 日志log  
     port: '/url1', // 基础数据请求接口  
     slowerTime: 500, // 筛选请求时长超过slowerTime的资源（ms）  
