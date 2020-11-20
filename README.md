@@ -15,7 +15,7 @@ import 'js-performance-monitor'
 });  
 
 ### 2. 上传至服务器静态资源  
-<script src="www.xxx.com/pm.js"></script>  
+`<script src="www.xxx.com/pm.js"></script>`  
 
 ### 3. 直接引入文件  
 import pm from './index.js';   
