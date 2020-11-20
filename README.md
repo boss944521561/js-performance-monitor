@@ -1,4 +1,4 @@
-# JS-performance-monitor  
+# js-performance-monitor  
 ### performance monitor
 JS performance 性能监控器，它全面的抓取了页面加载前，加载中，加载完毕的数据。它也可以持续监听并推送后续资源请求的各项耗时数据。更可以在想查询耗时的地方自定义打点。它也包含了用户信息数据，方便你在后台系统中准确的分析你的页面，及出现问题的用户设备上报到你的服务器。  
 
