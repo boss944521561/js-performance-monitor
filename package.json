@@ -1,0 +1,15 @@
+{
+  "name": "js-performance-monitor",
+  "version": "1.0.3",
+  "description": "performance monitor",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boss944521561/js-performance-monitor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mason",
+  "license": "ISC"
+}
