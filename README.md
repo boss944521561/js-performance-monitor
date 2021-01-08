@@ -1,11 +1,11 @@
-# js-performence-monitor  
-### performence monitor
-JS performence 性能监控器，它全面的抓取了页面加载前，加载中，加载完毕的数据。它也可以持续监听并推送后续资源请求的各项耗时数据。更可以在想查询耗时的地方自定义打点。它也包含了用户信息数据，方便你在后台系统中准确的分析你的页面，及出现问题的用户设备上报到你的服务器。  
+# js-performance-monitor  
+### performance monitor
+JS performance 性能监控器，它全面的抓取了页面加载前，加载中，加载完毕的数据。它也可以持续监听并推送后续资源请求的各项耗时数据。更可以在想查询耗时的地方自定义打点。它也包含了用户信息数据，方便你在后台系统中准确的分析你的页面，及出现问题的用户设备上报到你的服务器。  
 
 ### 使用 Use  
 ### 1. npm，引用后会在window下写入__pm__对象，调用如下  
-npm i js-performence-monitor  
-import 'js-performence-monitor'   
+npm i js-performance-monitor  
+import 'js-performance-monitor'   
 `__pm__`.init({  
     log: true, // 日志log  
     port: '/url1', // 基础数据请求接口  
